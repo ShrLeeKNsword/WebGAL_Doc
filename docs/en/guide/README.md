@@ -8,37 +8,37 @@ Regardless of the method you use to create a WebGAL game , you SHOULD take some 
 Did you know ? Most of the questions you're unsure about can be found in the documentation . If you're sure that you met a  bug , please shuttle [issues](https://github.com/MakinoharaShoko/WebGAL/issues) or contact Mahiru_@outlook.com . Discuss Community Links can be found in the top menu 'more'.
 :::
 
-### Method 1（Recommended）：Use WebGAL Terre
+### Method 1（Recommended）：WebGAL Terre
 
-**WebGAL 编辑器是创建、制作并发布一个 WebGAL 的最佳方式。**
+**WebGAL Terre is the best way to launch a WebGAL project**
 
-在下载 WebGAL 编辑器后，请解压压缩包并启动 WebGAL_Terre 应用程序。WebGAL Terre 将会自动打开默认浏览器，如果没有打开，请输入 [http://localhost:3001/](http://localhost:3001/) 打开编辑器。
+After downloading the package, Please unzip it and run WebGAL_Terre.exe. WebGAL Terre will open your default browser automatically. If not, please visit [http://localhost:3001/](http://localhost:3001/) open your editor.
 
-::: danger 警告
-请使用现代浏览器 (Chrome / Firefox / Edge) 打开 WebGAL 和编辑器。使用其他浏览器所可能产生的问题，将不会得到解决。
+::: warning
+Please use a modern browser (Chrome / Firefox / Edge) to open WebGAL and editor. Problems that may arise from using other browsers will not be resolved.
 :::
 
-::: tip 提示
-本页方法**不支持 Windows 7** , Windows 7 用户请参考 **[Windows 7 使用可视化编辑器开始制作的方法](./win7)**。
+::: tip
+The method on this page is **NOT supported by Windows 7** ,  and Windows 7 users refer to **[How to use the editor with Windows 7 ](./win7)**。
 
-WebGAL 编辑器目前只在 Windows 10+ 系统上经过测试，我们将逐步添加对 Mac OS 和 Linux 的支持。
+The WebGAL editor is currently only tested on Windows 10+ systems, and we will be gradually adding support for Mac OS and Linux.
 :::
 
-下载 WebGAL 可视化编辑器：
+**Download WebGAL Terre：**
 
 [GitHub](https://github.com/MakinoharaShoko/WebGAL_Terre/releases)
 
-[123网盘（所有版本被放在一个文件夹内，请下载最新版本）](https://www.123pan.com/s/YHszVv-jqzJ.html)
+[123Disk（All versions are placed in a folder, please download the latest version）](https://www.123pan.com/s/YHszVv-jqzJ.html)
 
-### 方法2：在本地通过书写脚本的形式开发，并实时调试
+### Method2：Writing Scripts Manually
 
-首先，下载已经被构建为静态网页的 WebGAL 发行版以及配套的调试环境。
+First, download the WebGAL distribution that has been built as a static web page and the accompanying debugging environment.
 
-下载 WebGAL 引擎本体及调试环境（不包括可视化编辑器）：
+Download the WebGAL engine ontology and debugging environment (excluding the visual editor):
 
 [GitHub](https://github.com/MakinoharaShoko/WebGAL/releases/)
 
-下载并解压后，你可以直接运行对应版本的 WebGAL-server 开始调试你的视觉小说。如果遇到杀毒软件拦截或防火墙拦截等情况，请放行以允许该程序运行。
+After downloading and unzipping, you can directly run the corresponding version of WebGAL-server to start debugging your visual novel. If you encounter antivirus software blocking or firewall blocking, let the program run.
 
 推荐使用 VS Code 进行开发，并使用插件来实现语法高亮：
 
